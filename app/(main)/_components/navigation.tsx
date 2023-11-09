@@ -160,16 +160,16 @@ export const Navigation = () => {
         </div>
 
         <div>
-          
+
         </div>
 
         <div>
           <UserItem />
-          
+
           <Item
             label="Home Dashboard"
             icon={Home}
-            
+
           />
           <Item
             label="Settings"
@@ -177,7 +177,7 @@ export const Navigation = () => {
             onClick={settings.onOpen}
           />
 
-<Item
+          <Item
             label="Search"
             icon={Search}
             isSearch
@@ -189,11 +189,11 @@ export const Navigation = () => {
             icon={PlusCircle}
           />
 
-          <DocumentList/>
+          <DocumentList />
         </div>
 
         <div className="mt-4">
-          
+
           <Item
             //onClick={handleCreate}
             icon={Plus}
@@ -229,19 +229,19 @@ export const Navigation = () => {
 
         <div className="mt-4">
           <a href="https://dotread.netlify.app/" target="_blank">
-          <Item
-            icon={Github}
-            label="dotRead Code Explorer"
-          />
+            <Item
+              icon={Github}
+              label="dotRead Code Explorer"
+            />
           </a>
         </div>
 
         <div>
           <a href="https://dotpackages.netlify.app/" target="_blank">
-          <Item
-            icon={Boxes}
-            label="dotPackages Package Manager"
-          />
+            <Item
+              icon={Boxes}
+              label="dotPackages Package Manager"
+            />
           </a>
         </div>
 
